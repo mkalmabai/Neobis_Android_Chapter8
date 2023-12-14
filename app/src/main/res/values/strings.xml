@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">MobiMarket</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="mobiMarket">MOBI MARKET</string>
+    <string name="inputName">Имя пользователя</string>
+    <string name="inputPassword">Пароль</string>
+    <string name="login">Войти</string>
+    <string name="register">Зарегистрироваться</string>
+    <string name="mail">Почта</string>
+    <string name="registrationText">Регистрация</string>
+    <string name="repetePass">Повторите пароль</string>
+    <string name="requirments"><![CDATA[Минимальная длина — 8 символов.\n Для надежности пароль должен\n содержать буквы и цифры.]]></string>
 </resources>
