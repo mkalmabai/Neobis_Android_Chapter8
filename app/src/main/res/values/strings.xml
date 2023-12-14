@@ -11,4 +11,8 @@
     <string name="registrationText">Регистрация</string>
     <string name="repetePass">Повторите пароль</string>
     <string name="requirments"><![CDATA[Минимальная длина — 8 символов.\n Для надежности пароль должен\n содержать буквы и цифры.]]></string>
+    <string name="main">Главная</string>
+    <string name="profile">Профиль</string>
+    <string name="wallet">Кошелек</string>
+    <string name="chats">Чаты</string>
 </resources>

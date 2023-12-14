@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/homeFragment"
+        android:title="@string/main"
+        android:icon="@drawable/home"/>
+    <item
+        android:id="@+id/walletFragment"
+        android:title="@string/wallet"
+        android:icon="@drawable/wallet"/>
+    <item
+        android:id="@+id/chatsFragment"
+        android:title="@string/chats"
+        android:icon="@drawable/chat"/>
+
+    <item
+        android:id="@+id/profileFragment"
+        android:title="@string/profile"
+        android:icon="@drawable/user"/>
+
+</menu>

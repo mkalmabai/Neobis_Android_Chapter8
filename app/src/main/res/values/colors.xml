@@ -10,4 +10,6 @@
     <color name="grey">#C0C0C0</color>
     <color name="mainBlue">#5458EA</color>
     <color name="black2">#494949</color>
+    <color name="icondisable">#D6D5DB</color>
+    <color name="bgBottomBar">#F7F7F8</color>
 </resources>
