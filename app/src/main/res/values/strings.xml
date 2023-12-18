@@ -15,4 +15,8 @@
     <string name="profile">Профиль</string>
     <string name="wallet">Кошелек</string>
     <string name="chats">Чаты</string>
+    <string name="userName">user name</string>
+    <string name="fov">Понравившиеся</string>
+    <string name="myProduct">Мои товары</string>
+    <string name="finishRegistration">Закончить регистрацию</string>
 </resources>

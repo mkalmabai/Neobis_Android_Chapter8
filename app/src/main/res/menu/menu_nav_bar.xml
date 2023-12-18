@@ -8,6 +8,7 @@
         android:id="@+id/walletFragment"
         android:title="@string/wallet"
         android:icon="@drawable/wallet"/>
+
     <item
         android:id="@+id/chatsFragment"
         android:title="@string/chats"
