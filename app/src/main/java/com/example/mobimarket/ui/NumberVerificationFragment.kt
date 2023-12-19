@@ -7,23 +7,23 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.navigation.fragment.findNavController
 import com.example.mobimarket.R
-import com.example.mobimarket.databinding.ActivityMainBinding
-import com.example.mobimarket.databinding.FragmentEditProfileBinding
+import com.example.mobimarket.databinding.FragmentNumberVerificationBinding
 
-class EditProfileFragment : Fragment() {
-    private lateinit var binding: FragmentEditProfileBinding
+
+class NumberVerificationFragment : Fragment() {
+    private lateinit var binding: FragmentNumberVerificationBinding
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        binding = FragmentEditProfileBinding.inflate(layoutInflater,container,false)
+        binding = FragmentNumberVerificationBinding.inflate(layoutInflater,container,false)
         return binding.root
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        binding.addNumber.setOnClickListener {
-            findNavController().navigate(R.id.action_editProfileFragment_to_numberVerificationFragment)
+        binding.buttonFurther.setOnClickListener {
+            findNavController().navigate(R.id.action_numberVerificationFragment_to_smsFragment)
         }
     }
 }

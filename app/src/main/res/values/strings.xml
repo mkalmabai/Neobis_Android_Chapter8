@@ -19,4 +19,15 @@
     <string name="fov">Понравившиеся</string>
     <string name="myProduct">Мои товары</string>
     <string name="finishRegistration">Закончить регистрацию</string>
+    <string name="logout">Выйти</string>
+    <string name="pickPhoto">Выбрать фотографию</string>
+    <string name="name">Имя</string>
+    <string name="surname">Фамилия</string>
+    <string name="date">00.00.0000</string>
+    <string name="addNumber">Добавить номер</string>
+    <string name="number">0(000) 000 000</string>
+    <string name="addressemail">com.example@gmail.com</string>
+    <string name="tectPhone">Введите номер телефона</string>
+    <string name="textSms">Мы отправим вам СМС с кодом\n подтверждения</string>
+    <string name="editTexPhone">0(000) 000 000</string>
 </resources>

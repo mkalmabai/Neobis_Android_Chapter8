@@ -27,7 +27,7 @@ class MainActivity : AppCompatActivity() {
         bottomNavigationView.menu.getItem(1).isEnabled =false
         bottomNavigationView.setupWithNavController(navController)
         binding.addProduct.setOnClickListener {
-            navController.navigate(R.id.addProductFragment)
+            navController.navigate(R.id.action_homeFragment_to_addProductFragment3)
         }
         navController.addOnDestinationChangedListener { _, destination, _ ->
             when (destination.id) {

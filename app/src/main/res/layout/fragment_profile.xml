@@ -38,8 +38,8 @@
         app:layout_constraintVertical_bias="1.0" />
     <androidx.cardview.widget.CardView
         android:id="@+id/cardProfileImage"
-        android:layout_width="90dp"
-        android:layout_height="90dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
         android:layout_marginTop="40dp"
         app:cardCornerRadius="100dp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -192,7 +192,7 @@
                 android:fontFamily="@font/gothamprobold"
                 android:paddingVertical="20dp"
                 android:paddingStart="60dp"
-                android:text="@string/fov"
+                android:text="@string/logout"
                 android:textColor="@color/black2"
                 android:textSize="18sp"
                 app:layout_constraintBottom_toBottomOf="parent"
