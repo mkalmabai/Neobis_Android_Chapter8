@@ -13,4 +13,5 @@
     <color name="icondisable">#D6D5DB</color>
     <color name="bgBottomBar">#F7F7F8</color>
     <color name="grey2">#F7F6F9</color>
+    <color name="red">#F34545</color>
 </resources>
