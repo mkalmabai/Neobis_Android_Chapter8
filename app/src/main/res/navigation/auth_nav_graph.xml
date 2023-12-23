@@ -27,5 +27,12 @@
         android:id="@+id/createPasswordFragment"
         android:name="com.example.mobimarket.ui.CreatePasswordFragment"
         android:label="fragment_create_password"
-        tools:layout="@layout/fragment_create_password" />
+        tools:layout="@layout/fragment_create_password" >
+        <argument
+            android:name="email"
+            app:argType="string" />
+        <argument
+            android:name="username"
+            app:argType="string" />
+    </fragment>
 </navigation>

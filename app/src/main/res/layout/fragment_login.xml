@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/white"
-    tools:context=".ui.LoginFragment">e
+    tools:context=".ui.LoginFragment"
+    tools:ignore="ExtraText">
 
     <ImageView
         android:id="@+id/loginIcon"
@@ -32,7 +33,7 @@
         app:layout_constraintTop_toBottomOf="@+id/loginIcon" />
 
     <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/InputLayoutName"
+        android:id="@+id/inputLayoutName"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="20dp"
@@ -60,7 +61,7 @@
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/InputLayoutPassword"
+        android:id="@+id/inputLayoutPassword"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="20dp"
@@ -72,9 +73,9 @@
         app:boxStrokeColor="@color/grey"
         android:textColorHint="@color/grey"
         app:hintTextColor="@color/grey"
-        app:layout_constraintEnd_toEndOf="@+id/InputLayoutName"
-        app:layout_constraintStart_toStartOf="@+id/InputLayoutName"
-        app:layout_constraintTop_toBottomOf="@+id/InputLayoutName">
+        app:layout_constraintEnd_toEndOf="@+id/inputLayoutName"
+        app:layout_constraintStart_toStartOf="@+id/inputLayoutName"
+        app:layout_constraintTop_toBottomOf="@+id/inputLayoutName">
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/passwordField"
@@ -103,7 +104,7 @@
         android:fontFamily="@font/gothamprobold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/InputLayoutPassword" />
+        app:layout_constraintTop_toBottomOf="@+id/inputLayoutPassword" />
 
     <TextView
         android:id="@+id/register"
