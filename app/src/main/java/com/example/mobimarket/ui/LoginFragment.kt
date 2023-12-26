@@ -56,7 +56,7 @@ class LoginFragment : Fragment() {
         binding.loginButton.setOnClickListener {
 //            val intent = Intent(activity, MainActivity::class.java)
 //            startActivity(intent)
-            loginViewModel.login(binding.nameField.text.toString().trim(),"", binding.passwordField.text.toString().trim())
+            loginViewModel.login(binding.nameField.text.toString().trim(), binding.passwordField.text.toString().trim())
             observe()
         }
     }
