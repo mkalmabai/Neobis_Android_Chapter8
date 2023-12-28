@@ -1,5 +1,6 @@
 package com.example.mobimarket.adapters
 
+import android.util.Log
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.AsyncListDiffer
@@ -24,9 +25,20 @@ class AdapterAddProduct :RecyclerView.Adapter<AdapterAddProduct.ViewHolder>() {
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
         val products = differ.currentList[position]
         with(holder.binding) {
-            Glide.with(image.context)
-                .load(products.productImage)
-                .into(image)
+            val productImageUrl = products.product_image
+            if (productImageUrl != null) {
+                Glide.with(image)
+                    .load(productImageUrl)
+                    .into(image)
+            } else {
+                Glide.with(image)
+                    .load(R.drawable.emptybox)
+                    .into(image)
+            }
+
+            title.text = products.title
+            price.text= products.price.toString()
+            likesNumber.text = products.likes.toString()
         }
     }
 
@@ -36,7 +48,7 @@ class AdapterAddProduct :RecyclerView.Adapter<AdapterAddProduct.ViewHolder>() {
         }
         override fun areContentsTheSame(oldItem: Product, newItem: Product): Boolean {
             return oldItem== newItem
-        }
+        }     
 
     }
     val differ = AsyncListDiffer(this, differCallback)

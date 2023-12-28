@@ -16,6 +16,9 @@
         <action
             android:id="@+id/action_homeFragment_to_addProductFragment3"
             app:destination="@id/addProductFragment3" />
+        <action
+            android:id="@+id/action_homeFragment_to_detaillFragment"
+            app:destination="@id/detaillFragment" />
     </fragment>
     <fragment
         android:id="@+id/profileFragment"
@@ -54,4 +57,9 @@
         android:name="com.example.mobimarket.ui.AddProductFragment"
         android:label="fragment_add_product"
         tools:layout="@layout/fragment_add_product" />
+    <fragment
+        android:id="@+id/detaillFragment"
+        android:name="com.example.mobimarket.ui.DetailFragment"
+        android:label="fragment_detaill"
+        tools:layout="@layout/fragment_detaill" />
 </navigation>

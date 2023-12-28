@@ -51,7 +51,7 @@
             android:id="@+id/price"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="5dp"
+            android:layout_marginTop="15dp"
             android:text="23 000 $"
             android:maxLines="1"
             android:fontFamily="@font/gothampro"
@@ -76,7 +76,7 @@
         <ImageView
             android:id="@+id/like"
             android:layout_width="20dp"
-            android:src="@drawable/heartfull"
+            android:src="@drawable/heart2"
             android:layout_height="20dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="@+id/price"
